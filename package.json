@@ -1,0 +1,39 @@
+{
+  "name": "palpite-box",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexfariakof/palpite-box.git"
+  },
+  "keywords": [],
+  "author": "Alex Ribeiro (devPleno)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexfariakof/palpite-box/issues"
+  },
+  "homepage": "https://github.com/alexfariakof/palpite-box#readme",
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.4",
+    "next": "^12.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.34",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.4",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6",
+    "typescript": "4.6.4"
+  }
+}
