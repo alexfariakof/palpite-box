@@ -27,10 +27,8 @@ export default function MyApp(props) {
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
         <div >
-            <div >
-                <h1>Palpite Box</h1>
-            </div>
-            <Component {...pageProps} />
+          <h1 className="bg-green-400" >Palpite Box</h1>
+          <Component {...pageProps} />
         </div>
       </ThemeProvider>
     </React.Fragment>
